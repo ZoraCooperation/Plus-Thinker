@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "406946963185",
+    "firebase_url": "https://plus-thinker-1bd74.firebaseio.com",
+    "project_id": "plus-thinker-1bd74",
+    "storage_bucket": "plus-thinker-1bd74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406946963185:android:a6a7591752e8a6e4451350",
+        "android_client_info": {
+          "package_name": "com.zoracooperation.ryan.plusthinker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406946963185-r9b9sh3vigev1oogt02pr31nuve1dndn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zoracooperation.ryan.plusthinker",
+            "certificate_hash": "626a68d36dde18a54f57afec7875bc812d3e32df"
+          }
+        },
+        {
+          "client_id": "406946963185-v13sqflocfreigj1vm4dp3ah5cbpk3q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYFqf-nupcLVlAweEntc84oK8p5BEa6aE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406946963185-v13sqflocfreigj1vm4dp3ah5cbpk3q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
