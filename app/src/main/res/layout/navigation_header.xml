@@ -4,7 +4,7 @@
     android:layout_height="200dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/navigation_header_layout"
-    android:background="@drawable/header">
+    android:background="@drawable/profile_header">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/nav_profile_image"

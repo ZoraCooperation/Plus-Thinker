@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/register"
+    android:background="@drawable/ic_click_post_background"
     tools:context=".ClickPostActivity">
     <include
         android:id="@+id/clickPost_page_toolbar"

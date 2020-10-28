@@ -17,6 +17,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -61,6 +62,10 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class MainActivity extends AppCompatActivity {
 
+    final private String APP_ID = "appa37b971fbae84c1eaa";
+    final private String ZONE_ID = "vz58d817219b8f45c29f";
+    final private String TAG = "AdColonyDemo";
+
     public NavigationView navigationView;
     public DrawerLayout drawerLayout;
     public RecyclerView recyclerView;
@@ -83,6 +88,8 @@ public class MainActivity extends AppCompatActivity {
     AlertDialog.Builder alertDialogBuilder;
     AlertDialog alertDialog;
     AdView adView;
+
+    private ProgressBar progress;
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
@@ -630,7 +637,7 @@ public class MainActivity extends AppCompatActivity {
         };
         recyclerView.setAdapter(adapter);
     }
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public static class ViewHolder extends RecyclerView.ViewHolder {
         public TextView fullName, date, time, description, like, comment;
         public CircleImageView profileImage;
         public ImageView postImage, favoriteIcon, commentIcon, sendIcon;
